@@ -6,8 +6,8 @@ logging and debugging and various other purposes.
 
 ## Usage
 ```bash
-go get github.com/mainflux/mproxy
-cd $(GOPATH)/github.com/mainflux/mproxy
+go get github.com/MainfluxLabs/mproxy
+cd $(GOPATH)/github.com/MainfluxLabs/mproxy
 make
 ./mproxy
 ```

@@ -7,10 +7,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/MainfluxLabs/mproxy/logger"
+	"github.com/MainfluxLabs/mproxy/pkg/session"
+	mptls "github.com/MainfluxLabs/mproxy/pkg/tls"
 	"github.com/gorilla/websocket"
-	"github.com/mainflux/mainflux/logger"
-	"github.com/mainflux/mproxy/pkg/session"
-	mptls "github.com/mainflux/mproxy/pkg/tls"
 )
 
 // Proxy represents WS Proxy.

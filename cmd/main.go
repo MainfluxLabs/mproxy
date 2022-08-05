@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"syscall"
 
-	mflog "github.com/mainflux/mainflux/logger"
-	"github.com/mainflux/mproxy/examples/simple"
-	"github.com/mainflux/mproxy/pkg/mqtt"
-	"github.com/mainflux/mproxy/pkg/session"
-	mptls "github.com/mainflux/mproxy/pkg/tls"
-	"github.com/mainflux/mproxy/pkg/websocket"
+	"github.com/MainfluxLabs/mproxy/examples/simple"
+	mflog "github.com/MainfluxLabs/mproxy/logger"
+	"github.com/MainfluxLabs/mproxy/pkg/mqtt"
+	"github.com/MainfluxLabs/mproxy/pkg/session"
+	mptls "github.com/MainfluxLabs/mproxy/pkg/tls"
+	"github.com/MainfluxLabs/mproxy/pkg/websocket"
 )
 
 const (
