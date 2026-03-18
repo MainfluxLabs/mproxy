@@ -94,7 +94,7 @@ func main() {
 
 	logger, err := mflog.New(os.Stdout, cfg.logLevel)
 	if err != nil {
-		log.Fatalf(err.Error())
+		log.Fatalf("%s", err.Error())
 	}
 
 	h := simple.New(logger)
