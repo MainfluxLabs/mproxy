@@ -1,6 +1,6 @@
 module github.com/MainfluxLabs/mproxy
 
-go 1.25.0
+go 1.25.8
 
 require (
 	github.com/eclipse/paho.mqtt.golang v1.5.1
